@@ -27,9 +27,9 @@ public class TodoApplication {
 			public void run(String... args) throws Exception {
 				// TODO Auto-generated method stub
 				Todo todo = new Todo();
-				todo.setDescription("Estudar Spring");
-				todo.setCreatedDate(LocalDateTime.now());
-				todoRepository.save(todo);
+//				todo.setDescription("Estudar Spring");
+//				todo.setCreatedDate(LocalDateTime.now());
+//				todoRepository.save(todo);
 				
 			}
 		};
